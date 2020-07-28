@@ -40,8 +40,6 @@ languageRouter.get("/", async (req, res, next) => {
   }
 });
 
-//innocuous comment
-
 languageRouter.get("/head", async (req, res, next) => {
   try {
     const userLanguage = await LanguageService.getUsersLanguage(
